@@ -1,0 +1,32 @@
+{
+  "version": "30.0.0",
+  "files": {
+    "34384886c8a6612a8e3a5ec6af67c115772e961d3ac5a0fe7acb2a9a29ea76f2": {
+      "source": {
+        "path": "asset.34384886c8a6612a8e3a5ec6af67c115772e961d3ac5a0fe7acb2a9a29ea76f2",
+        "packaging": "zip"
+      },
+      "destinations": {
+        "current_account-current_region": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "34384886c8a6612a8e3a5ec6af67c115772e961d3ac5a0fe7acb2a9a29ea76f2.zip",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    },
+    "c60b370af75559ecabbdf3108557eabbc9e5c1598503030aff15f9609ceaa99e": {
+      "source": {
+        "path": "MurtazaTrainingSpint1Stack.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "current_account-current_region": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "c60b370af75559ecabbdf3108557eabbc9e5c1598503030aff15f9609ceaa99e.json",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}
